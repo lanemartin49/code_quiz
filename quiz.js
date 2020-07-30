@@ -59,7 +59,9 @@ $(".answers").on("click", function () {
             parseInt(buttonStart) === parseInt(startQuestions[index].answer)
         ) {
             userScore++;
+            alert("correct!")
         } else {
+            alert("wrong")
             time -= 10
         }
         index++
